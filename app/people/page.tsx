@@ -111,7 +111,7 @@ const PeoplePage = () => {
                 alt="zeyan"
                 className="object-scale-down max-h-full m-auto"
               />
-              <h3 className="text-center p-4 text-lg">Eloise</h3>
+              <h3 className="text-center p-4 text-lg">Eloise McGibbon</h3>
               <h4 className="text-center ">Summer Intern </h4>
             </div>
           </div>

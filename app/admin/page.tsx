@@ -53,7 +53,7 @@ const AdminPage = () => {
     <div>
       <h1 className="text-center text-xl font-bold">Messages</h1>
       {messages?.map((message: any, index: number) => (
-        <div>
+        <div key={index}>
           {" "}
           <p>
             {index + 1}. {message.firstName} {message.lastName}{" "}

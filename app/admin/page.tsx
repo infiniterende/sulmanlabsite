@@ -15,7 +15,6 @@ const AdminPage = () => {
     e.preventDefault();
     if (password == process.env.NEXT_PUBLIC_ADMIN_PASSWORD) {
       setAuthenticated(true);
-      router.replace(pathname);
     }
   };
 

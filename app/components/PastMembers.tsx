@@ -4,150 +4,311 @@ const PastMembers = () => {
   return (
     <div>
       <h1 className="text-xl font-bold py-8">Past Members </h1>
-      <p>
-        Lindsey Goodman, Postdoctoral Associate, Baylor College of Medicine,
-        7/2007-8/2012
-      </p>
-      <p>Raymond Wei, Undergraduate, New York University, 6/2008-8/2009</p>
-      <p>Patrice N. Love, Medical student, Drexel University, 1/2009-5/2012</p>
+      <table className="table-auto w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead className="p-8 text-gray-700  bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th scope="col" className="px-4 py-3">
+              Name
+            </th>
+            <th scope="col" className="px-4 py-3">
+              Past Position
+            </th>
+            <th scope="col" className="px-4 py-3">
+              Date
+            </th>
+            <th scope="col" className="px-4 py-3">
+              Current Position
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Lindsey Goodman</td>
+            <td>Predoctoral</td>
+            <td>7/2007-8/2012</td>
+            <td>Postdoctoral Associate, Baylor College of Medicine</td>
+          </tr>
 
-      <p>Amy George, Ophthalmologist ,Temple , TX, 6/2009-12/2010 </p>
+          <tr>
+            <td>Raymond Wei</td>
+            <td>Predoctoral</td>
+            <td>6/2008-8/2009</td>
+            <td>Undergraduate, New York University</td>
+          </tr>
 
-      <p>
-        Jing Li, Assistant Professor, M. D. Anderson Cancer Center,
-        7/2009-5/2010
-      </p>
-      <p>
-        Nicholas Boehling, Radiation Oncology specialist, St Charles Cancer
-        Center, Bend, Oregon, 7/2009-6/2012 11/2014-9/2015
-      </p>
+          <tr>
+            <td>Patrice N. Love</td>
+            <td>Predoctoral</td>
+            <td>1/2009-5/2012</td>
+            <td>Medical student, Drexel University</td>
+          </tr>
 
-      <p>
-        Ashley Kim, Process engineer, Mondelez International, Inc.,
-        5/2010-9/2010
-      </p>
+          <tr>
+            <td>Amy George</td>
+            <td>Predoctoral</td>
+            <td>6/2009-12/2010</td>
+            <td>Ophthalmologist ,Temple , TX</td>
+          </tr>
 
-      <p>Peng Sun, Research Scientist, Baxalta, Inc., 11/2010-11/2012</p>
+          <tr>
+            <td>Jing Li</td>
+            <td>Post-doctoral</td>
+            <td>7/2009-5/2010</td>
+            <td>Assistant Professor, M. D. Anderson Cancer Center</td>
+          </tr>
 
-      <p>
-        Ascher Kaufmann, Medical student, Tulane University School of Medicine,
-        3/2011-5/2012
-      </p>
+          <tr>
+            <td>Nicholas Boehling</td>
+            <td>Pre- and Post- doctoral</td>
+            <td>7/2009-6/2012 11/2014-9/2015</td>
+            <td>
+              Radiation Oncology specialist, St Charles Cancer Center, Bend,
+              Oregon
+            </td>
+          </tr>
 
-      <p>
-        Eric D. Hyun, General Internal Medicine, St.Luke’s Hospital,
-        7/2011-6/2012
-      </p>
+          <tr>
+            <td>Ashley Kim</td>
+            <td>Pre-doctoral</td>
+            <td>5/2010-9/2010</td>
+            <td>Process engineer, Mondelez International, Inc.</td>
+          </tr>
 
-      <p>
-        Christian Ricks, Assistant Professor, Neurosurgery, University of New
-        Mexico., 7/2011-7/2012
-      </p>
+          <tr>
+            <td>Peng Sun</td>
+            <td>Post-doctoral</td>
+            <td>11/2010-11/2012</td>
+            <td>Research Scientist, Baxalta, Inc.</td>
+          </tr>
 
-      <p>Ryan Bitar, Undergraduate, Vanderbilt University, 6/2012-8/2012</p>
+          <tr>
+            <td>Eric D. Hyun</td>
+            <td>Pre-doctoral</td>
+            <td>7/2011-6/2012</td>
+            <td>General Internal Medicine, St.Luke’s Hospital</td>
+          </tr>
 
-      <p>
-        Bradley Anderson, Pediatric Resident, Denver Children’s Hospital,
-        5/2012-8/2012
-      </p>
+          <tr>
+            <td>Ascher Kaufmann</td>
+            <td>Pre-doctoral</td>
+            <td>3/2011-5/2012</td>
+            <td>Medical student, Tulane University School of Medicine</td>
+          </tr>
 
-      <p>
-        Ram Narayan, Radiation Oncology Resident, University of Kentucky,
-        Louisville, 5/2012-8/2012
-      </p>
+          <tr>
+            <td>Christian Ricks</td>
+            <td>Post-doctoral</td>
+            <td>7/2011-7/2012</td>
+            <td>
+              Assistant Professor, Neurosurgery, University of New Mexico.
+            </td>
+          </tr>
 
-      <p>
-        Maxine Bantleman, PhD student, University of Edinburgh, United Kingdom,
-        5/2013-8/2013
-      </p>
+          <tr>
+            <td>Ryan Bitar</td>
+            <td>Pre-doctoral</td>
+            <td>6/2012-8/2012</td>
+            <td>Undergraduate, Vanderbilt University</td>
+          </tr>
 
-      <p>
-        Qianghu Wang, Nanjing Medical University, Jiangsu, China, 6/2013-05/2018
-      </p>
+          <tr>
+            <td>Bradley Anderson</td>
+            <td>Pre-doctoral</td>
+            <td>5/2012-8/2012</td>
+            <td>Pediatric Resident, Denver Children’s Hospital</td>
+          </tr>
 
-      <p>
-        Jie Yang, AI resident and Data Scientist, Shell Oil , TX,6/2014-02/2020
-      </p>
+          <tr>
+            <td>Ram Narayan</td>
+            <td>Pre-doctoral</td>
+            <td>5/2012-8/2012</td>
+            <td>
+              Radiation Oncology Resident, University of Kentucky, Louisville
+            </td>
+          </tr>
 
-      <p>
-        Adriana Olar, Assistant Professor of Pathology and Laboratory Medicine &
-        Neurosurgery, Medical University of South Carolina, Charleston, SC,
-        7/2014-6/2016
-      </p>
+          <tr>
+            <td>Qianghu Wang</td>
+            <td>Post-doctoral</td>
 
-      <p>
-        Eskil Eskilsson, Postdoctoral fellow, M. D. Anderson Cancer Center,
-        1/2015-08/2016
-      </p>
+            <td>6/2013-05/2018</td>
+            <td>Nanjing Medical University, Jiangsu, China</td>
+          </tr>
 
-      <p>
-        Ming Tang, Senior Scientist at Dana-Farber Cancer Insitute,
-        3/2015-08/2016
-      </p>
+          <tr>
+            <td>Jie Yang</td>
+            <td>Pre-doctoral</td>
+            <td>6/2014-02/2020</td>
+            <td>AI resident and Data Scientist, Shell Oil , TX</td>
+          </tr>
 
-      <p>
-        Kashmira Ghatge, Graduate Student, The University of Queensland
-        Brisbane, Australia, 2/2017-08/2018
-      </p>
+          <tr>
+            <td>Maxine Bantleman</td>
+            <td>Pre-doctoral</td>
+            <td>5/2013-8/2013</td>
+            <td>PhD student, University of Edinburgh, United Kingdom</td>
+          </tr>
 
-      <p>
-        Ahmad Daher, Medical Director, Neuro-Oncology, Hartford HealthCare
-        Medical Group, 1/2017-07/2018
-      </p>
+          <tr>
+            <td>Adriana Olar</td>
+            <td>Post-doctoral</td>
+            <td>7/2014-6/2016</td>
+            <td>
+              Assistant Professor of Pathology and Laboratory Medicine &
+              Neurosurgery, Medical University of South Carolina, Charleston, SC
+            </td>
+          </tr>
 
-      <p>
-        Ahsan Farooqi, Assistant Professor, Department of Radiation Oncology
-        ,M.D. Anderson Cancer Center, 10/2016-06/2020
-      </p>
+          <tr>
+            <td>Eskil Eskilsson</td>
+            <td>Post-doctoral</td>
+            <td>1/2015-08/2016</td>
+            <td>Postdoctoral fellow, M. D. Anderson Cancer Center</td>
+          </tr>
 
-      <p>
-        Keeratikarn Boonyawan, Department of Radiology, Ramathibodi Hospital,
-        Mahidol University, Bangkok, 6/2016- 04/2018
-      </p>
+          <tr>
+            <td>Ming Tang</td>
+            <td>Post-doctoral</td>
+            <td>3/2015-08/2016</td>
+            <td>Senior Scientist at Dana-Farber Cancer Insitute</td>
+          </tr>
 
-      <p>
-        Penny Fang, Assistant Professor, Department of Radiation Oncology ,M.D.
-        Anderson Cancer Center, 10/2016-06/2018
-      </p>
+          <tr>
+            <td>Zhang -Zeyan</td>
+            <td>Post-doctoral</td>
+            <td>3/2016-present</td>
+            <td>
+              Postdoctoral fellow, Department of Radiation Oncology, NYU Langone
+              Health
+            </td>
+          </tr>
 
-      <p>
-        Shruti Natarajan, Undergraduate student, University of Texas at Dallas,
-        05/2018-08/2018
-      </p>
-      <p>
-        Deepthi Ramesh, Graduate Student, University of Warsaw, 01/2018-06/2018
-      </p>
+          <tr>
+            <td>Kashmira Ghatge</td>
+            <td>Pre-doctoral</td>
+            <td>2/2017-08/2018</td>
+            <td>
+              Graduate Student, The University of Queensland Brisbane, Australia
+            </td>
+          </tr>
 
-      <p>
-        Nadia Samaha, M.D. Candidate at Georgetown University School of
-        Medicine, 06/2018-08/2019
-      </p>
+          <tr>
+            <td>Ahmad Daher</td>
+            <td>Post-doctoral</td>
+            <td>1/2017-07/2018</td>
+            <td>
+              Medical Director, Neuro-Oncology, Hartford HealthCare Medical
+              Group
+            </td>
+          </tr>
 
-      <p>
-        Shara Kamil Nizamudin, Graduate Student non – University of Texas Health
-        Science Center, Houston, 04/2016-01/2019
-      </p>
+          <tr>
+            <td>Ahsan Farooqi</td>
+            <td>Post-doctoral</td>
+            <td>10/2016-06/2020</td>
+            <td>
+              Assistant Professor, Department of Radiation Oncology ,M.D.
+              Anderson Cancer Center
+            </td>
+          </tr>
 
-      <p>
-        Aram Modrek, Resident, Department of Radiation Oncology, NYU Langone
-        Health, 1/2019-Present
-      </p>
+          <tr>
+            <td>Keeratikarn Boonyawan</td>
+            <td>Post-doctoral</td>
+            <td>6/2016- 04/2018</td>
+            <td>
+              Department of Radiology, Ramathibodi Hospital, Mahidol University,
+              Bangkok
+            </td>
+          </tr>
 
-      <p>
-        Brendan Hyslop, NTV , Department of Radiation Oncology, NYU Langone
-        Health, 10/2020- Present
-      </p>
+          <tr>
+            <td>Penny Fang</td>
+            <td>Post-doctoral</td>
+            <td>6/2016- 04/2018</td>
+            <td>
+              Department of Radiology, Ramathibodi Hospital, Mahidol University,
+              Bangkok
+            </td>
+          </tr>
 
-      <p>
-        Ariel Bessinger, NTV , Department of Radiation Oncology, NYU Langone
-        Health., 02/2020-Present
-      </p>
+          <tr>
+            <td>Shruti Natarajan</td>
+            <td>Pre-doctoral</td>
+            <td>05/2018-08/2018</td>
+            <td>Undergraduate student, University of Texas at Dallas</td>
+          </tr>
 
-      <p>
-        Hyunwoo Cho, Postdoctoral fellow, NYU Langone Health, 11/2019-Present
-      </p>
+          <tr>
+            <td>Deepthi Ramesh</td>
+            <td>Pre-doctoral</td>
+            <td>01/2018-06/2018</td>
+            <td>Graduate Student, University of Warsaw</td>
+          </tr>
 
-      <p>Elisa Liu, NYU Grossman School of Medicine, 06/2019-Present</p>
+          <tr>
+            <td>Nadia Samaha</td>
+            <td>Pre-doctoral</td>
+            <td>06/2018-08/2019</td>
+            <td>M.D. Candidate at Georgetown University School of Medicine</td>
+          </tr>
+
+          <tr>
+            <td>Shara Kamil Nizamudin</td>
+            <td>Pre-doctoral</td>
+            <td>04/2016-01/2019</td>
+            <td>
+              Graduate Student non – University of Texas Health Science Center,
+              Houston{" "}
+            </td>
+          </tr>
+
+          <tr>
+            <td>Aram Modrek</td>
+            <td>Post-doctoral</td>
+            <td>11/2019-Present</td>
+            <td>
+              Resident, Department of Radiation Oncology, NYU Langone Health
+            </td>
+          </tr>
+
+          <tr>
+            <td>Brendan Hyslop</td>
+            <td>Pre-doctoral</td>
+            <td>10/2020- Present</td>
+            <td>NTV , Department of Radiation Oncology, NYU Langone Health</td>
+          </tr>
+          <tr>
+            <td>Jerome Karp</td>
+            <td>Post-doctoral</td>
+            <td>11/2019-Present</td>
+            <td>
+              Resident, Department of Radiation Oncology, NYU Langone Health
+            </td>
+          </tr>
+
+          <tr>
+            <td>Ariel Bessinger</td>
+            <td>Pre-doctoral</td>
+            <td>02/2020-Present</td>
+            <td>NTV , Department of Radiation Oncology, NYU Langone Health.</td>
+          </tr>
+
+          <tr>
+            <td>Hyunwoo Cho</td>
+            <td>Post-doctoral</td>
+            <td>11/2019-Present</td>
+            <td>Postdoctoral fellow, NYU Langone Health</td>
+          </tr>
+
+          <tr>
+            <td>Elisa Liu</td>
+            <td>Pre-doctoral</td>
+            <td>06/2019-Present</td>
+            <td>NYU Grossman School of Medicine</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 };

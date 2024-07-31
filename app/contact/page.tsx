@@ -17,8 +17,8 @@ const ContactPage = () => {
       <ContactForm />
 
       <p className="text-center py-8 px-96">
-        Interested applicants may email a brief biography and CV to Dr. Sulman
-        (erik.sulman at nyulangone.org) and May Ahn (may.ahn at nyulangone.org)
+        Interested applicants may email a brief biography and CV to info at
+        sulmanlab.org.
       </p>
 
       <Footer />
